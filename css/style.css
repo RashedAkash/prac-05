@@ -9,7 +9,7 @@
 /* banner style */
 .banner{
   background-image: url('../images/banner/banner2.png');
-  height: 100vh;
+  height: 810px;
   background-position: ;
   
 }
@@ -38,3 +38,44 @@
   font-weight: 700;
   font-size: 17px;
 }
+/* failures-area style */
+.failures-area{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5%;
+  gap: 100px;
+}
+.failures-img{
+  width: 50%;
+}
+.failures-img img{
+  width: 100%;
+}
+.failures-text{}
+.failures-text h1{
+  font-size: 40px;
+  color: #333;
+  font-weight: 700;
+}
+.failures-text p{
+margin: 20px 0;
+}
+.failures-text ul li{
+  font-size: 14px;
+  margin-bottom: 10px;
+  list-style: none;
+}
+.fa-check{
+  color: rgb(63, 224, 63);
+  font-size: 17px;
+  margin-right: 10px;
+}
+
+/* plan area style */
+.single-plan{}
+.plan-img {}
+.plan-img img{}
+.plan-text{}
+.plan-text h1{}
+.plan-text p{}
