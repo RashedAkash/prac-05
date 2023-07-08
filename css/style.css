@@ -103,3 +103,25 @@ margin: 20px 0;
   font-weight: 500;
   color: #333;
 }
+
+/* keep-area style */
+.keep-area{
+  background-image: url('../images/gradient2.png');
+  background-repeat: no-repeat;
+  padding: 5%;
+  margin: 5%;
+}
+.keep-text{}
+.keep-text h1{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.call{
+  border: none;
+  border-radius: 5px;
+  padding: 15px 35px;
+  font-size: 17px;
+  font-weight: 700;
+}
