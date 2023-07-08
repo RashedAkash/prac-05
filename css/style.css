@@ -73,9 +73,33 @@ margin: 20px 0;
 }
 
 /* plan area style */
-.single-plan{}
+.plan-area{
+  padding: 100px;
+}
+.plan-container{
+  display: flex;
+  justify-content: space-around;
+}
+.title{
+  text-align: center;
+
+}
+.title h1{
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+.single-plan{
+  text-align: center;
+}
 .plan-img {}
 .plan-img img{}
 .plan-text{}
-.plan-text h1{}
-.plan-text p{}
+.plan-text h1{
+  margin: 10px 0;
+  font-weight: 700;
+}
+.plan-text p{
+  font-size: 17px;
+  font-weight: 500;
+  color: #333;
+}
